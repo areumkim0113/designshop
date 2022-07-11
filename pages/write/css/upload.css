@@ -1,0 +1,53 @@
+
+/* --업로드 데이터 입력 영역 시작 -- */
+.uploadBar {
+  padding-top: 74px;
+  padding-bottom: 81px;
+  margin-left: 5%;
+}
+
+#titleInput {
+  padding: 5px;
+  border: 2px solid #e5e5e5;
+  margin-right: 10px;
+  margin-bottom: 13px;
+}
+
+.channelSel {
+  border: 2px solid #e5e5e5;
+  padding: 5px;
+  padding-right: 114px;
+  margin-right: 10px;
+  margin-bottom: 13px;
+}
+
+.uploadTimeSel {
+  border: 2px solid #e5e5e5;
+  padding: 5px;
+  padding-right: 126px;
+}
+
+.changeBrand > a {
+  margin-left:4px;
+  text-decoration: none;
+  color: black;
+}
+
+/* --업로드 데이터 입력 영역 끝 -- */
+
+.submitBar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 5%;
+  float: right;
+}
+
+.submitBtn {
+  border: 1px solid #e5e5e5;
+}
+
+.saveBtn {
+  border: 1px solid #e5e5e5;
+  background-color: #dbdbdb;
+}
+

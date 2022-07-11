@@ -1,0 +1,43 @@
+
+/* 대기업무 데이터 영역 시작 */
+
+.titleBar {
+  padding-top: 82px;
+  padding-bottom: 42px;
+  margin-left: 5%;
+}
+
+.channelSel {
+  border: 2px solid #e5e5e5;
+  padding: 5px;
+  padding-right: 162px;
+}
+
+.optionInput {
+  margin-left: 10px;
+  padding: 5px;
+  border: 2px solid #e5e5e5;
+}
+
+#wdate {
+  margin-left: 10px;
+  padding: 5px;
+  border: 2px solid #e5e5e5;
+  padding-right: 92px;
+}
+
+.submitBtn {
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+  float: right;
+}
+
+.uploadTimeSel {
+  border: 2px solid #e5e5e5;
+  padding: 5px;
+  padding-right: 198px;
+}
+
+/* 대기업무 데이터 영역 끝 */
+

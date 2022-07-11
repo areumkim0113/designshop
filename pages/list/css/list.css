@@ -1,0 +1,67 @@
+
+
+.searchBar{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.searchSel{
+    margin-left: 5%; 
+    border: 2px solid #E5E5E5; 
+    padding:3px; 
+    padding-right:94px;
+}
+
+.channelSel{
+    margin-left: 10px; 
+    border: 2px solid #E5E5E5; 
+    padding:3px; 
+    padding-right:94px;
+}
+
+.statusSel{
+    margin-left: 10px; 
+    border: 2px solid #E5E5E5; 
+    padding:3px; 
+    padding-right:94px;
+}
+
+
+#searchInput{
+    margin-left:10px; 
+    padding:3px; 
+    border: 2px solid #E5E5E5;
+}
+
+.datepicker{
+    margin-left:12px;
+}
+
+.searchBtnIndex{
+    margin-left:15px; 
+}
+
+.delectBtnIndex{
+    margin-left:10%; 
+    margin-bottom:20px; 
+}
+
+.uploadBtn{
+    float:right; 
+    margin-right:11%; 
+}
+
+a:hover {
+    /* text-decoration: underline; */
+    color:wheat;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+  }
