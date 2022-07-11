@@ -72,7 +72,6 @@ if($result){
 	);
 	
 	$body_json = json_encode($body1, JSON_UNESCAPED_UNICODE,true);
-	// print_r($body_json);
 
 	/* 상품 > 상품 리스트를 가져옵니다. */
 	$url1= "https://openapi.playauto.io/api/product/online/list";

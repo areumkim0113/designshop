@@ -65,3 +65,5 @@
         <button class="searchBtn btn">검색</button>
     </div>
 </div>
+
+

@@ -14,7 +14,6 @@ $db_inset = json_decode($request_body,true);
 //넘어온 값들을 지정된 변수에 저장하기
 $title = $db_inset["title"];
 $tableData = $db_inset["tableData"];
-// print_r($tableData);
 
 $channel = $db_inset["channel"];
 
@@ -34,7 +33,6 @@ for($i=0; $i<count($tableData); $i++){
 }
 
 $product_list = json_encode($list,JSON_UNESCAPED_UNICODE);
-// print_r($product_list);
 
 
 //---------- 오늘 날짜에 등록된 업무 데이터의 개수 조회

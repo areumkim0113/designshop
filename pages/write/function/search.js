@@ -14,16 +14,13 @@ $(function(){
     var e_date = date2.slice(1, 11);
     var product_name = $(".name").val();
     var sol_cate_no = $(".categorySel option:selected").val();
-    // var code_cate = $(".codeSel option:selected").val();
-    // var code_value = $(".code").val();
   
     var data = {
       sdate: s_date,
       edate: e_date,
       search_word: product_name,
       sol_cate_no: sol_cate_no,
-      // multi_type: code_cate,
-      // code_value: code_value,
+
     };
 
     grid.readData(1, data, true);

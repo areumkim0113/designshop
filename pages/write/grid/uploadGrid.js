@@ -1,5 +1,4 @@
 
-
     const uploadGrid = new tui.Grid({
         el: document.getElementById('uploadGrid'),
         scrollX: true,
@@ -66,3 +65,5 @@
             uploadGrid.resetData(newData);
             uploadGrid.restore();
         });
+
+        

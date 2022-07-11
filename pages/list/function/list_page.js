@@ -36,7 +36,7 @@ $(function(){
         var data = {type:select,value:value};
         grid.readData(1,data,true);
 
-    }) //searchBtn 이벤트 end
+    })
 
     //select 값의 따라 다른 선택지 보여주기
     $(".searchSel").change(function(){
@@ -74,7 +74,7 @@ $(function(){
         }
 
 
-    }) //searchSel 이벤트 end
+    })
 
     // db에서 업무 삭제하기
     $(".delectBtnIndex").click(function(){
@@ -110,7 +110,7 @@ $(function(){
             });
         }
 
-    }) //deleteBtn 이벤트 end
+    })
 
     $(".uploadBtn").click(function(){
         location.href = "pages/write/upload.php";

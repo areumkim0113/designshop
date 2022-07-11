@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="pages/list/css/list.css">
 
-
     <?php include_once("includes/tui-css-link.php");?>
     <?php include_once("includes/tui-js-path.php");?>  
 

@@ -78,3 +78,5 @@
      document.getElementById("channel").value = "<?=$data["design_ch"]?>";
 </script>
 </html>
+
+

@@ -6,8 +6,6 @@ header('Content-Type: text/html; charset=utf-8');
 error_reporting( E_ALL );
 ini_set( "display_errors", 1 );
 
-//임시저정된 데이터를 보여줄 때
-//등록오류가 난 후 등록이 안된 상품만 보여줄 때
 
 // db에 저장된 상품정보 가져오기
 if(isset($_GET['task_id'])){
@@ -19,7 +17,6 @@ if(isset($_GET['task_id'])){
 
     $dataArr = mysqli_fetch_assoc($result);
     $row = json_decode($dataArr['result'],true);
-    // print_r($row);
 
     $product_list = array();
 

@@ -3,7 +3,6 @@
 $(function(){
     
   //-----progress.php에 work_id에 해당하는 상품 정보 출력하기
-  //url에 있는 work_id를 받아서 read.php로 보내기
   const urlParams = new URL(location.href).searchParams;
   const id = urlParams.get("task_id");
 

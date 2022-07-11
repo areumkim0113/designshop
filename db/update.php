@@ -7,7 +7,6 @@ error_reporting( E_ALL );
 ini_set( "display_errors", 1 );
 
 $request_body = file_get_contents('php://input');
-// print_r($request_body);
 
 $db_update = json_decode($request_body,true);
 
@@ -35,7 +34,6 @@ for($i=0; $i<count($tableData); $i++){
 }
 
 $product_list = json_encode($list,JSON_UNESCAPED_UNICODE);
-// print_r($product_list);
 
 //--------------업무 수정
 $sql = "UPDATE work_list SET task_title='$title', design_ch='$channel', product_list='$product_list', product_count='$product_count' WHERE task_id = '$task_id'";

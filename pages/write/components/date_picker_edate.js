@@ -1,5 +1,4 @@
 
-
 var datepicker_e = new tui.DatePicker('#wrapper2', {
             date: new Date(),
             input: {
@@ -8,3 +7,4 @@ var datepicker_e = new tui.DatePicker('#wrapper2', {
             }
 });
        
+

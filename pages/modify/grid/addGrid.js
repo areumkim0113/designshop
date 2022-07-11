@@ -1,5 +1,4 @@
 
-
     const addGrid = new tui.Grid({
         el: document.getElementById('addGrid'),
         data: {

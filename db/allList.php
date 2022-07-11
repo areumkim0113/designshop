@@ -34,11 +34,8 @@ if(isset($_GET['type'])){
 }
 
 $result = mysqli_query($con,$sql);
-
-// $row = mysqli_fetch_array($result);
-// print_r($row);
-
 $list = array();
+
 while($row = mysqli_fetch_array($result)){
 
     // print_r($row);
